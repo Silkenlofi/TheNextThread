@@ -1,0 +1,381 @@
+@font-face {
+  font-family: "Lk Bulltoz 02";
+  src: url('../fonts/LK_BULLTOZ-02.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 01";
+  src: url('../fonts/LK_BULLTOZ-01.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 06";
+  src: url('../fonts/LK_BULLTOZ-06.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 04";
+  src: url('../fonts/LK_BULLTOZ-04.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 05";
+  src: url('../fonts/LK_BULLTOZ-05.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 07";
+  src: url('../fonts/LK_BULLTOZ-07.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 08";
+  src: url('../fonts/LK_BULLTOZ-08.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lk Bulltoz 03";
+  src: url('../fonts/LK_BULLTOZ-03.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Varoste;
+  src: url('../fonts/VarosteRegular-nA4MJ.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.hero-image-section {
+  background-color: #1f1f1f;
+  background-image: url('../images/eugene-chystiakov-qQL1cRsjySo-unsplash.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  max-height: 100vh;
+  margin-top: 0;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.container {
+  flex-flow: column;
+  justify-content: space-between;
+  max-width: 90vw;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: flex;
+}
+
+.hero-item-title {
+  color: #fbf2dd;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2vw;
+  line-height: 1.2;
+}
+
+.hero-item-title.btm {
+  margin-bottom: 2vw;
+}
+
+.hero-item-title.btm.title {
+  margin-bottom: 1vw;
+  font-size: 1vw;
+}
+
+.hero-item-title.btm.btn {
+  letter-spacing: .1vw;
+  margin-bottom: 0;
+  font-family: Varoste, Arial, sans-serif;
+  font-size: 1.25vw;
+  line-height: 1;
+}
+
+.hero-item-title.btm.under {
+  letter-spacing: .2vw;
+  margin-top: .4vw;
+  margin-bottom: 0;
+  font-family: Varoste, Arial, sans-serif;
+  font-size: 2.5vw;
+  line-height: 1;
+}
+
+.hero-item-title.btm.t-right {
+  margin-bottom: 1.4vw;
+}
+
+.hero-category-list {
+  grid-column-gap: 1vw;
+  grid-row-gap: 1vw;
+  flex-direction: column;
+  display: flex;
+}
+
+.hero-category-item {
+  color: #fbf2dd;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 1.3vw;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+}
+
+.hero-category-item:hover {
+  color: #999;
+  text-decoration: underline;
+}
+
+.hero-item-right {
+  grid-column-gap: 1.5vw;
+  grid-row-gap: 1.5vw;
+  text-align: right;
+  flex-flow: column;
+  width: auto;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  margin-left: auto;
+  display: flex;
+}
+
+.hero-item-description-right {
+  color: #fbf2dd;
+  margin-bottom: 0;
+  font-size: 1.3vw;
+  line-height: 1.2;
+}
+
+.hero-title-lg-white {
+  color: #fbf2dd;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 1vw;
+  font-family: "Lk Bulltoz 01", Arial, sans-serif;
+  font-size: 9vw;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.div-block {
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  display: flex;
+}
+
+.text-span {
+  font-family: "Lk Bulltoz 06", Arial, sans-serif;
+}
+
+.div-block-2 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.div-block-3 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-flow: row;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.div-tit {
+  border: 1px solid #fbf2dd;
+  border-radius: 200px;
+  padding: .825vw 2.5vw .625vw;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-image-section {
+    margin-top: -110px;
+    padding-top: 150px;
+    padding-bottom: 60px;
+  }
+
+  .hero-category-list {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    flex-wrap: wrap;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+  }
+
+  .hero-item-right {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .hero-title-lg-white {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-image-section {
+    background-image: linear-gradient(#0003, #0003), url('../images/hero-image-01.jpg');
+    background-position: 0 0, 50% 100%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    padding-bottom: 50px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-category-list {
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero-item-title {
+    font-size: 18px;
+  }
+
+  .hero-category-list {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .hero-item-right {
+    width: 100%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Lk Bulltoz 02';
+  src: url('../fonts/LK_BULLTOZ-02.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 01';
+  src: url('../fonts/LK_BULLTOZ-01.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 06';
+  src: url('../fonts/LK_BULLTOZ-06.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 04';
+  src: url('../fonts/LK_BULLTOZ-04.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 05';
+  src: url('../fonts/LK_BULLTOZ-05.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 07';
+  src: url('../fonts/LK_BULLTOZ-07.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 08';
+  src: url('../fonts/LK_BULLTOZ-08.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lk Bulltoz 03';
+  src: url('../fonts/LK_BULLTOZ-03.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Varoste';
+  src: url('../fonts/VarosteRegular-nA4MJ.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
